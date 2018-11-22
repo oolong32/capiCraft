@@ -4,6 +4,10 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   padding: 2em 2em 5em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 * {
