@@ -2,5 +2,10 @@
 /.idea
 /vendor
 .DS_Store
-*.swp
-*.swo
+**/*.swp
+**/*.swo
+Capfile
+/config/deploy/
+/config/deploy.rb
+/lib/
+/log/
