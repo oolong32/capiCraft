@@ -9,3 +9,6 @@ Capfile
 /config/deploy.rb
 /lib/
 /log/
+db_info.txt
+uploads
+p5

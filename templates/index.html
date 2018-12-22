@@ -1,6 +1,25 @@
 {% extends "_layout" %}
+
+{% set index_page = craft.entries.section('home').first() %}
+
 {% block content %}
   <main>
+  {#
     <h2>Jodok lives!</h2>
+    {% if index_page.image|length %}
+      <img src="{{ index_page.image[0].url }}" alt="">
+    {% endif %}
+    #}
+    {% if index_page.linkList|length %}
+      <ul>
+      {% for link in index_page.linkList %}
+      <li><a href="{{ link.linkUrl }}" target="_blank">{{ link.linkText }}</a></li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+
   </main>
+  <script src="/assets/p5/p5.min.js"></script>
+  <script src="/assets/js/shape.js"></script>
+  <script src="/assets/js/sketch.js"></script>
 {% endblock %}
