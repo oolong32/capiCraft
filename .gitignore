@@ -10,5 +10,5 @@ Capfile
 /lib/
 /log/
 db_info.txt
-uploads
-p5
+uploads/
+p5/
