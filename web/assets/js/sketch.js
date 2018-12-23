@@ -46,13 +46,16 @@ function mousePressed() {
 
 function draw() {
 	background( 0 );
-	// for loops below iterate backwards over array, because splicing results in skipping one entry.
+	// for loops below iterate backwards over array,
+  // because splicing results in skipping one entry.
 	for ( var s = shapes.length - 1; s >= 0 ; s-- ) {
 		// check if object touches limit of raster field
 		if ( shapes[ s ].x < shapes[ s ].raster_left || shapes[ s ].x > shapes[ s ].raster_right || shapes[ s ].y < shapes[ s ].raster_top || shapes[ s ].y > shapes[ s ].raster_bottom ) {
 			//	write object that went too far to other array
 			//  and delete object from original array
-			//  thereâ€™s no need to call the draw_shape function here, as this shape will be drawn when iterating over shapes_out
+			//  no need to call the draw_shape function here,
+      //  as this shape will be drawn when iterating
+      //  over shapes_out
 			shapes_out.push( shapes[ s ] );
 			shapes.splice( s, 1 );
 		} else {
@@ -66,7 +69,8 @@ function draw() {
 	if ( shapes_out.length > 0 ) {
 		for ( var o = shapes_out.length - 1; o >= 0 ; o-- ) {
 			//	check if they have arrived at the center
-			if ( shapes_out[ o ].x == shapes_out[ o ].raster_center_x && shapes_out[ o ].y == shapes_out[ o ].raster_center_y ) {
+			if ( shapes_out[ o ].x == shapes_out[ o ].raster_center_x
+           && shapes_out[ o ].y == shapes_out[ o ].raster_center_y ) {
 				// write object back to array containing the goodies
 				// delete object from array containing the badies
 				shapes_out[ o ].draw_shape();
