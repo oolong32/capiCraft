@@ -52,3 +52,16 @@ a:active {  color: #fff; }
 /* End Links }}}2 */
 
 /* End Basic Styles }}}1 */
+
+/* Mobile Styles {{{1 */
+@media (max-width: 600px) {
+  body { font-size: 24px; }
+  header, main {
+    position: -webkit-sticky;
+    position: sticky;
+  }
+  header { top: 1em; }
+  main { bottom: 1em; }
+}
+
+/* End Mobile Styles }}}1 */
