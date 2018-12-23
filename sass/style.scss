@@ -1,12 +1,18 @@
 /* Basic Styles {{{1 */
+
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 32px;
   -webkit-text-size-adjust: 100%;
-  padding: 0 0 0 2em;
-  margin: 0;
   color: #fff;
   background: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 0 0 0 2em;
   height: 100vh;
   /* FLEX */
   display: flex;
