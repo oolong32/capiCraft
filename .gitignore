@@ -12,3 +12,5 @@ Capfile
 db_info.txt
 uploads/
 p5/
+sass/style.old
+web/assets/js/.tern-project
