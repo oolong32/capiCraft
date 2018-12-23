@@ -13,4 +13,5 @@ db_info.txt
 uploads/
 p5/
 sass/style.old
+web/assets/css/*.map
 web/assets/js/.tern-project
