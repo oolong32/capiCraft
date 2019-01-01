@@ -20,10 +20,10 @@ function Shape(x, y, w, h) {
   this.colored = false;
 	this.col = color(123, 200);
 
-  var orange = color( 248, 128, 23 );
-  var violet = color( 137, 59, 255);
-  var green = color( 0, 255, 0);
-  var colors = [ orange, violet, green ]
+  var pink = color( 'hsl(255, 100%, 50%)' );
+  var violet = color( 'hsl(137, 100%, 50%)' );
+  var blue = color( 'hsl(0, 100%, 50%)' );
+  var colors = [ pink, violet, blue ]
 
 	/* Methods */
 
@@ -78,7 +78,6 @@ function Shape(x, y, w, h) {
         this.col = colors[ randIndex ];
         this.colored = true;
       } else { 
-        console.log( "ho" );
         this.col = color( 123, 200 );
         this.colored = false;
       }

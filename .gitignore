@@ -15,3 +15,7 @@ p5/
 sass/style.old
 web/assets/css/*.map
 web/assets/js/.tern-project
+gulpfile.js
+node_modules/
+package-lock.json
+package.json
