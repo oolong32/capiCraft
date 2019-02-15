@@ -1,3 +1,5 @@
+@import url('/assets/fonts/vulfMono/font.css');
+
 /* Basic Styles {{{1 */
 
 *, html {
@@ -30,6 +32,20 @@ canvas {
 
 header { margin: 1em 0 0; }
 main { margin: 2em 0; }
+main#ssh-public {
+  width: 100%;
+  font-family: 'Vulf Mono Light Italic', monospace;
+  color: fuchsia;
+  font-size: 0.5em;
+  section {
+    margin-bottom: 1em;
+    p {
+      pre { 
+        margin: 0;
+      } 
+    }
+  }
+}
 
 /* Lists {{{2 */
 ul {

@@ -20,9 +20,9 @@ function Shape(x, y, w, h) {
   this.colored = false;
 	this.col = color(123, 200);
 
-  var pink = color( 'hsl(255, 100%, 50%)' );
-  var violet = color( 'hsl(137, 100%, 50%)' );
-  var blue = color( 'hsl(0, 100%, 50%)' );
+  var pink   = color( 'hsl( 316, 100%, 50% )' );
+  var violet = color( 'hsl( 267, 100%, 60% )' );
+  var blue   = color( 'hsl( 217, 100%, 50% )' );
   var colors = [ pink, violet, blue ]
 
 	/* Methods */
