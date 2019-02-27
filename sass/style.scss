@@ -69,6 +69,26 @@ a:active {  color: #fff; }
 
 /* End Basic Styles }}}1 */
 
+/* Under Construction Label {{{ */
+aside {
+  position: fixed;
+  top: 120px;
+  left: 200px;
+  margin: auto;
+  background: red;
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 5px 16px;
+  border-radius: 20px;
+  animation: pulse infinite alternate-reverse 1s ease-in-out;
+  transform: rotate(-10deg);
+}
+@keyframes pulse {
+  from { transform: scale(1) rotate(-12deg); }
+  to { transform: scale(1.1) rotate(-12deg); }
+}
+/* End Under Construction Label }}} */
+
 /* Mobile Styles {{{1 */
 @media (max-width: 600px) {
   body { font-size: 24px; }
