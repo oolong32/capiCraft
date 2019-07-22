@@ -5,6 +5,25 @@
 {% block content %}
   <main>
 
+  <section id="description">
+  <p>Designer & Programmer, teaches at the <a href="https://www.zhdk.ch/en/continuingeducation/design-450/cas-digital-typography" target="_blank">University of the Arts</a> Zurich and programs at <a href="https://belingthoenen.com" target="_blank">Beling Thoenen</a>.</p>
+  </section>
+
+  <section id="projects">
+  <h2>Recent Projects</h2>
+  <ul>
+	<li>foo bar</li>
+  </ul>
+  </section>
+
+  <section id="cv">
+  <h2>CV</h2>
+  <ul>
+  	<li>baz qux</li>
+  </ul>
+  </section>
+
+  <section id="link">
     {% if index_page.linkList|length %}
       <ul>
       {% for link in index_page.linkList.all() %}
@@ -12,13 +31,8 @@
       {% endfor %}
       </ul>
     {% endif %}
+  </section>
 
   </main>
-
-  <aside>Redesign Imminent</aside>
-
-  <script src="/assets/p5/p5.min.js"></script>
-  <script src="/assets/js/shape.js"></script>
-  <script src="/assets/js/sketch.js"></script>
 
 {% endblock %}
