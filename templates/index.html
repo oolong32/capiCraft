@@ -6,24 +6,52 @@
   <main>
 
   <section id="description">
-  <p>Designer & Programmer, teaches at the <a href="https://www.zhdk.ch/en/continuingeducation/design-450/cas-digital-typography" target="_blank">University of the Arts</a> Zurich and programs at <a href="https://belingthoenen.com" target="_blank">Beling Thoenen</a>.</p>
+  <p>Designer & Programmer, heads the course ‘<a href="https://www.zhdk.ch/en/continuingeducation/design-450/cas-digital-typography" target="_blank">Digital Typography</a>’ at the University of the Arts Zurich and programs at <a href="https://belingthoenen.com" target="_blank">Beling Thoenen</a>.</p>
   </section>
 
   <section id="projects">
   <h2>Recent Projects</h2>
+  <p>Under construction …</p>
+  {#
   <ul>
 	<li>foo bar</li>
   </ul>
+  #}
   </section>
 
   <section id="cv">
   <h2>CV</h2>
-  <ul>
-  	<li>baz qux</li>
-  </ul>
+  <table>
+  	<tr>
+  		<td>2017–pres.</td>
+		<td>Programmer at Beling Thoenen</td>
+  	</tr>
+	<tr>
+		<td>2014–pres.</td>
+		<td>Teaches Coding at ZHdK</td>
+	</tr>
+	<tr>
+		<td>2009–2014</td>
+		<td>Assistant Teacher at ZHdK</td>
+	</tr>
+	<tr>
+		<td>2005–2014</td>
+		<td>Self employed Programmer & Web Designer</td>
+	</tr>
+	<tr>
+		<td>2001–2005</td>
+		<td>Media Art Studies at ZHdK</td>
+	</tr>
+	<tr>
+		<td>1999–2001</td>
+		<td>Japanese Studies at University of Zurich</td>
+	</tr>
+  </table>
   </section>
 
+  {#
   <section id="link">
+  <h2>Links</h2>
     {% if index_page.linkList|length %}
       <ul>
       {% for link in index_page.linkList.all() %}
@@ -31,6 +59,11 @@
       {% endfor %}
       </ul>
     {% endif %}
+  </section>
+  #}
+
+  <section id="contact">
+	  <p><a href="mailto:mail@josefrenner.ch">mail@josefrenner.ch</a></p>
   </section>
 
   </main>
