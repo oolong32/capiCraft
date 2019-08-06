@@ -1,6 +1,6 @@
 :root {
   font-size: 100%;
-  line-height: 1.4;
+  line-height: 1.5;
   font-family: 'Output Sans Deck', sans-serif;
 }
 
@@ -17,27 +17,46 @@ body {
   padding: 0 1rem;
 }
 
-a { color: hsl(355, 100%, 100%); }
+a {
+  color: hsl(190, 100%, 70%);
+  text-decoration: none;
+}
 a:hover, a:focus { color: hsl(200, 100%, 60%); }
 
-h1 {
-  color: hsl(150, 90%, 40%);
-  margin: 1rem 0;
+h1, h2, h3 {
+  margin: 0 0 0.25rem;
 }
+
+h1 { color: hsl(150, 100%, 100%); }
 
 h2 {
   font-size: 1.5em;
   // color: hsl(210, 100%, 50%);
-  margin: 2em 0 1em;
 }
 
 h3 {
   font-size: 1em;
-  margin: 0;
 }
 
 section {
-  margin-bottom: 2em;
+  margin-bottom: 3em;
+}
+
+ul {
+  // list-style-position: outside;
+  // padding-left: 0.9rem;
+  list-style: none;
+  li::before { content: "– "}
+  li {
+    text-indent: -1rem;
+    padding-left: 1rem;
+  }
+}
+
+table {
+  td:first-child {
+    padding-right: 0.5rem;
+  }
 }
 
 @media (min-width: 500px) {
