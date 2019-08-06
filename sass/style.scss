@@ -60,8 +60,10 @@ table {
     vertical-align: top;
   }
   td:first-child {
-    padding-right: 0.5rem;
     white-space: nowrap;
+  }
+  td + td {
+    padding-left: 0.5rem;
   }
 }
 
