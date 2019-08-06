@@ -54,11 +54,17 @@ ul {
 }
 
 table {
+  border: none;
+  td {
+    text-align: left;
+    vertical-align: top;
+  }
   td:first-child {
     padding-right: 0.5rem;
+    width: max-content;
   }
 }
 
 @media (min-width: 500px) {
   body { padding: 2em 2em 5em; }
-  }
+}
