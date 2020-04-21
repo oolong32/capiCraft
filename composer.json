@@ -1,8 +1,8 @@
 {
   "require": {
-    "craftcms/cms": "^3.1.0-beta.1",
+    "craftcms/cms": "3.5.0-beta.1",
     "vlucas/phpdotenv": "^2.4.0",
-    "craftcms/element-api": "2.5.4"
+    "craftcms/element-api": "2.6.0"
   },
   "autoload": {
     "psr-4": {

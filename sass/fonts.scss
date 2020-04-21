@@ -1,4 +1,22 @@
 @font-face {
+  font-family: "Jaune Grande";
+  src: url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.woff2") format("woff2"),
+       url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.woff") format("woff"),
+       url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.eot") format("eot");
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Jaune Grande";
+  src: url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.woff2") format("woff2"),
+       url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.woff") format("woff"),
+       url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.eot") format("eot");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
   font-family: "Output Sans Deck";
   src: url("/assets/fonts/output/OutputSansHairlines-Deck.woff2") format("woff2"),
        url("/assets/fonts/output/OutputSansHairlines-Deck.woff") format("woff"),
