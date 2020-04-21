@@ -1,9 +1,13 @@
 @charset "UTF-8";
 :root {
-  font-size: 200%;
+  font-size: 150%;
   line-height: 1.5;
   font-family: "Jaune Grande", sans-serif;
   font-weight: 300;
+  --background: black;
+  --color: white;
+  --link-col: hsl(50, 100%, 70%);
+  --hover-col: hsl(90, 100%, 60%);
 }
 
 html, * {
@@ -14,27 +18,24 @@ html, * {
 }
 
 body {
-  background: black;
-  color: white;
+  background: var(--background);
+  color: var(--color);
   padding: 0 1rem;
 }
 
 a {
-  color: #66e6ff;
+  color: var(--link-col);
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #33bbff;
+  color: var(--hover-col);
 }
 
 h1, h2, h3 {
+  line-height: 1;
   margin: 0 0 0.25rem;
   font-weight: 800;
-}
-
-h1 {
-  color: white;
 }
 
 h2 {
@@ -75,6 +76,10 @@ table td + td {
 }
 
 @media (min-width: 500px) {
+  :root {
+    font-size: 200%;
+  }
+
   body {
     padding: 2em 2em 5em;
   }

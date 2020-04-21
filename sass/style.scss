@@ -1,8 +1,12 @@
 :root {
-  font-size: 200%;
+  font-size: 150%;
   line-height: 1.5;
   font-family: 'Jaune Grande', sans-serif;
   font-weight: 300;
+  --background: black;
+  --color: white;
+  --link-col: hsl(50, 100%, 70%);
+  --hover-col: hsl(90, 100%, 60%);
 }
 
 html, * {
@@ -13,28 +17,24 @@ html, * {
 }
 
 body {
-  background: black;
-  color: hsl(355, 100%, 100%);
+  background: var(--background);
+  color: var(--color);
   padding: 0 1rem;
 }
 
 a {
-  color: hsl(190, 100%, 70%);
+  color: var(--link-col);
   text-decoration: none;
 }
-a:hover, a:focus { color: hsl(200, 100%, 60%); }
+a:hover, a:focus { color: var(--hover-col); }
 
 h1, h2, h3 {
+  line-height: 1;
   margin: 0 0 0.25rem;
   font-weight: 800;
 }
 
-h1 { color: hsl(150, 100%, 100%); }
-
-h2 {
-  font-size: 1.5em;
-  // color: hsl(210, 100%, 50%);
-}
+h2 { font-size: 1.5em; }
 
 h3 {
   font-size: 1em;
@@ -70,5 +70,8 @@ table {
 }
 
 @media (min-width: 500px) {
+  :root {
+    font-size: 200%;
+  }
   body { padding: 2em 2em 5em; }
 }
