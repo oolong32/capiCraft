@@ -1,8 +1,27 @@
+// Sporting Grotesque
+
+@font-face {
+    font-family: "Sporting Grotesque";
+    src: url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Regular_web.woff") format("woff"),
+         url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Regular_web.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sporting Grotesque";
+    src: url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Bold_web.woff") format("woff"),
+         url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Bold_web.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+// Jaune Grande
+
 @font-face {
   font-family: "Jaune Grande";
   src: url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.woff2") format("woff2"),
-       url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.woff") format("woff"),
-       url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.eot") format("eot");
+       url("/assets/fonts/jaune/Jaunev0.4-GrandeBlack.woff") format("woff");
   font-style: normal;
   font-weight: 800;
 }
@@ -10,17 +29,132 @@
 @font-face {
   font-family: "Jaune Grande";
   src: url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.woff2") format("woff2"),
-       url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.woff") format("woff"),
-       url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.eot") format("eot");
+       url("/assets/fonts/jaune/Jaunev0.4-GrandeLight.woff") format("woff");
   font-style: normal;
   font-weight: 300;
 }
 
+// Output
+
 @font-face {
   font-family: "Output Sans Deck";
   src: url("/assets/fonts/output/OutputSansHairlines-Deck.woff2") format("woff2"),
-       url("/assets/fonts/output/OutputSansHairlines-Deck.woff") format("woff"),
-       url("/assets/fonts/output/OutputSansHairlines-Deck.eot") format("eot");
+       url("/assets/fonts/output/OutputSansHairlines-Deck.woff") format("woff");
   font-style: normal;
   font-weight: 100;
 }
+
+// Input
+
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Thin-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Thin-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: 250;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-ThinItalic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-ThinItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: 250;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-ExtraLight-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-ExtraLight-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: 275;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-ExtraLightItalic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-ExtraLightItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: 275;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Light-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Light-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: 300;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-LightItalic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-LightItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: 300;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Regular-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Regular-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Italic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Italic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: normal;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Medium-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Medium-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: 500;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-MediumItalic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-MediumItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: 500;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Bold-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Bold-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: bold;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-BoldItalic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-BoldItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: bold;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-Black-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-Black-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: normal;
+    font-weight: 800;
+    }
+
+@font-face {
+    src: url('/assets/fonts/inputSans/InputSans-BlackItalic-Testing.woff2') format("woff2"),
+         url('/assets/fonts/inputSans/InputSans-BlackItalic-Testing.woff') format("woff");
+    font-family: 'InputSans';
+    font-style: italic;
+    font-weight: 800;
+    }

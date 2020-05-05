@@ -1,12 +1,12 @@
 :root {
-  font-size: 150%;
-  line-height: 1.5;
-  font-family: 'Jaune Grande', sans-serif;
-  font-weight: 300;
+  font-size: 100%;
+  line-height: 1.2;
+  font-family: 'InputSans', sans-serif;
+  font-weight: 200;
   --background: black;
   --color: white;
-  --link-col: hsl(50, 100%, 70%);
-  --hover-col: hsl(90, 100%, 60%);
+  --link-col: hsl(50 100% 70%);
+  --hover-col: hsl(90 100% 60%);
 }
 
 html, * {
@@ -29,9 +29,10 @@ a {
 a:hover, a:focus { color: var(--hover-col); }
 
 h1, h2, h3 {
+  font-family: 'Sporting Grotesque';
   line-height: 1;
   margin: 0 0 0.25rem;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 h2 { font-size: 1.5em; }
@@ -42,6 +43,10 @@ h3 {
 
 section {
   margin-bottom: 3em;
+}
+
+p, li, td {
+  font-size: 0.875rem;
 }
 
 ul {
@@ -71,7 +76,7 @@ table {
 
 @media (min-width: 500px) {
   :root {
-    font-size: 200%;
+    font-size: 100%;
   }
   body { padding: 2em 2em 5em; }
 }
