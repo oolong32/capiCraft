@@ -1,19 +1,37 @@
-// Sporting Grotesque
+// Token
 
 @font-face {
-    font-family: "Sporting Grotesque";
-    src: url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Regular_web.woff") format("woff"),
-         url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Regular_web.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Token";
+  src: url("/assets/fonts/tokenSerif/Token4-Green.woff2") format("woff2"),
+       url("/assets/fonts/tokenSerif/Token4-Green.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Sporting Grotesque";
-    src: url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Bold_web.woff") format("woff"),
-         url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Bold_web.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Token";
+  src: url("/assets/fonts/tokenSerif/Token4-Yellow.woff2") format("woff2"),
+       url("/assets/fonts/tokenSerif/Token4-Yellow.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+// Sporting Grotesque
+
+@font-face {
+  font-family: "Sporting Grotesque";
+  src: url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Regular_web.woff") format("woff"),
+       url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Regular_web.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sporting Grotesque";
+  src: url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Bold_web.woff") format("woff"),
+       url("/assets/fonts/SportingGrotesque/Sporting_Grotesque-Bold_web.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
 }
 
 // Jaune Grande

@@ -1,12 +1,13 @@
 :root {
   font-size: 100%;
-  line-height: 1.2;
+  line-height: 1.4;
   font-family: 'InputSans', sans-serif;
   font-weight: 275;
   --background: black;
-  --color: white;
-  --link-col: hsl(50 100% 70%);
-  --hover-col: hsl(90 100% 60%);
+  --color: hsl(240 90% 90%);
+  --title-col: hsl(140 100% 70%);
+  --link-col: hsl(240 100% 65%);
+  --hover-col: hsl(220 100% 60%);
 }
 
 html, * {
@@ -28,35 +29,27 @@ a {
 a:hover, a:focus { color: var(--hover-col); }
 
 h1, h2, h3 {
-  font-family: 'Sporting Grotesque';
-  line-height: 1;
+  font-size: .875rem;
   margin: 0 0 0.25rem;
-  font-weight: 700;
+  font-weight: 275;
+  color: var(--title-col);
 }
 
-h2 { font-size: 1.5em; }
+section { margin-bottom: 3em; }
 
-h3 {
-  font-size: 1em;
-}
-
-section {
-  margin-bottom: 3em;
-}
-
-p, li, td {
-  font-size: 0.875rem;
-}
+p, li, td { font-size: 0.875rem; }
 
 ul {
-  // list-style-position: outside;
-  // padding-left: 0.9rem;
+  list-style-position: outside;
+  padding-left: 0.9rem;
+  /*
   list-style: none;
   li::before { content: "– "}
   li {
     text-indent: -1rem;
     padding-left: 1rem;
   }
+  */
 }
 
 table {
