@@ -27,6 +27,7 @@ a {
   color: var(--link-col);
   text-decoration: none;
   outline: none;
+  transition: color .3s;
 }
 a:hover { color: var(--hover-col); }
 a:focus { color: var(--focus-col); }
@@ -38,7 +39,7 @@ h1, h2, h3 {
   color: var(--title-col);
 }
 
-section { margin-bottom: 3em; }
+section { margin-bottom: 2.5em; }
 
 p, li, td { font-size: 0.875rem; }
 
