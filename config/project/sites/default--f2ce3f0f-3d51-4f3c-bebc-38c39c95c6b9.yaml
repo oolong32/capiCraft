@@ -1,0 +1,9 @@
+baseUrl: '@web/'
+enabled: true
+handle: default
+hasUrls: true
+language: de-CH
+name: 'Josef Renner'
+primary: true
+siteGroup: 7b241608-9114-48b1-a45d-3a86b0265ab8
+sortOrder: 1

@@ -1,0 +1,10 @@
+handle: blog
+name: Blog
+siteSettings:
+  f2ce3f0f-3d51-4f3c-bebc-38c39c95c6b9:
+    hasUrls: true
+    template: blog/_category
+    uriFormat: 'categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 423a73d2-0917-4bd4-a431-c21b264ec17e
