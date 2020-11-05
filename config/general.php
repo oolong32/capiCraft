@@ -40,11 +40,13 @@ return [
     'staging' => [
         // Base site URL
         'siteUrl' => null,
+         'allowAdminChanges' => false,
     ],
 
     // Production environment settings
     'production' => [
         // Base site URL
         'siteUrl' => null,
+         'allowAdminChanges' => false,
     ],
 ];

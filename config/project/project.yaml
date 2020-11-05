@@ -1,12 +1,8 @@
-dateModified: 1604523261
+dateModified: 1604603191
 email:
   fromEmail: josef.renner@gmail.com
   fromName: 'craft test'
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
 plugins:
   ckeditor:
     enabled: '1'
