@@ -1,0 +1,12 @@
+{% extends "_layout" %}
+
+{% block content %}
+  <p>hello</p>
+
+  <form method="post" accept-charset="utf-8">
+    {{ getCsrfInput() }}
+    <input type="hidden" name="action" value="renner-module/jodok/do-something">
+    <input type="text" name="whatever" value="" />
+    <button>Submit</button>
+  </form>
+{% endblock %}
