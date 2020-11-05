@@ -1,7 +1,6 @@
 # my own website
 
-
-## deploy
+## deploy
 
 deploys with [capistrano](https://capistranorb.com/): `cap production deploy` 
 
